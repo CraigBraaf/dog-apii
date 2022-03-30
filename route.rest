@@ -1,0 +1,70 @@
+POST http://d0g-blog.herkuapp.com/users/login
+Content-Type: application/json
+
+{
+    "username": "simamkele",
+    "password": "123456"
+}
+
+
+
+###
+POST http://localhost:8000/users/register
+Content-Type: application/json
+
+{
+    "username": "simam",
+    "email": "simam@gmail.com",
+    "password": "123456"
+}
+
+###
+POST https://localhost:6000/users/login
+Content-Type: application/json
+
+{
+    "username": "simamkele",
+    "password": "123456"
+}
+
+###
+POST https://localhost:6000/users/register
+Content-Type: application/json
+
+{
+    "username": "simamkele",
+    "email": "simamkele@gmail.com",
+    "password": "123456"
+}
+
+###
+GET http://localhost:5001/users
+
+###
+
+GET http://localhost:6000/comments
+
+
+###
+
+PATCH  http://localhost:5001/posts/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI2MjNjNWYwNjM3MjE5NDAwMjM0NzA3ZmMiLCJwcm9maWxlUGljIjoiIiwidXNlcm5hbWUiOiJjcmFpZyIsImVtYWlsIjoiYnJhYWZjcmFpZ0BnbWFpbC5jb20iLCJwYXNzd29yZCI6IiQyYiQxMCRUZE1EWmZod2d6SEc5bXROLkh1LnJlakVvbzA1eGN1dk51UTZ0ZlZ2bFVmeEo1M0QweTRkbSIsIl9fdiI6MH0.6vDN0wh5Nmq8EpD-IfyZpDx7B5UTDjgjh7dsgwol4DQ
+
+{
+    "photo": ""
+}
+
+###
+GET http://localhost:5000/users
+
+###
+
+DELETE http://localhost:5008/users/6233290a687951f24c4b4ebf
+Content-Type: application/json
+
+{
+    "username": "Craig",
+    "email": "braafcraig@gmail.com",
+    "password": "braaf2022"
+}
